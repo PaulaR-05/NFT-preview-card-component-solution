@@ -81,6 +81,7 @@ main {
   border-radius: 1.25rem;
   display: grid;
   gap: 1rem;
+  box-shadow: 0rem 0rem 2.5rem 0.625rem rgba(0, 0, 0, 0.5);
 }
 
 .cardLink_image {
@@ -130,19 +131,20 @@ main {
   font-size: var(--small-font-size);
 }
 
-.price,
+.priceETH,
 .daysLeft {
   display: flex;
   align-items: center;
 }
 
-.price img,
+.priceETH img,
 .daysLeft img {
   margin-right: 0.375rem;
 }
 
-.price {
+.priceETH {
   color: var(--cyan);
+  font-weight: 600;
 }
 
 .line {
@@ -154,7 +156,6 @@ main {
 .authorInfo {
   display: flex;
   align-items: center;
-  font-weight: 600;
 }
 
 .authorImg {
@@ -167,7 +168,7 @@ main {
 
 .authorLink {
   font-size: var(--small-font-size);
-  font-weight: 300;
+  font-weight: 600;
 }
 
 footer {
