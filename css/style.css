@@ -13,6 +13,7 @@
 .attribution {
   font-size: 0.688rem;
   text-align: center;
+  margin-top: 0.688rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
